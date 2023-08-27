@@ -13,4 +13,9 @@ public:
         this->c.push_back(new_top);
         this->pop();
     }
+
+    void replace_top(T&& new_top) {
+        this->c.push_back(new_top);
+        this->pop();
+    }
 };
